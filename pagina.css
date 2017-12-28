@@ -1,0 +1,33 @@
+#popup{
+    display:block;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.75);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+}
+
+#popupContenido{
+    width: 600px;
+    background-color: rgba(255,255,255,0.95);
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#container{
+    width: 60%;
+    margin-left: 440px;
+    margin-right: auto;
+}
+
+.textAreaError{
+    border-color: #a94442;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(169,68,66,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(169,68,66,.6);
+}

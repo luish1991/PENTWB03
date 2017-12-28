@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PENTWB03</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    <script type="text/javascript" src="pagina.js" ></script>
+    <link rel="stylesheet" href="pagina.css" ></link>
+</head>
+<body>
+    <div id="popup">
+        <div id="popupContenido">
+            <br />
+            <p><strong>Esto es un popup:</strong></p>
+            <button id="btnPop" >Aceptar</button>
+        </div>
+    </div>
+
+    <div id="container">
+        <div id="mensaje">
+            <p>Oprime un boton</p>
+            <button id="Uno" type="button">Uno</button>
+            <button id="Dos" type="button">Dos</button>
+        </div>
+        <br />
+        <p>Escribe en el primer recuadro:</p>
+        <br />
+        <div id="area">
+            <textarea id="textarea1" cols="30" rows="10"></textarea>
+            <textarea id="textarea2" cols="30" rows="10" readonly="true"></textarea>
+            <br />
+            <p>Numero de caracteres: 0</p>
+        </div>
+        <div id="combos">
+            <p>Selecciona una opcion:</p>
+            <select id="combo1" onchange="cargar(this.value)">
+                <option value="Opcion 1">Opcion 1</option>
+                <option value="Opcion 2">Opcion 2</option>
+                <option value="Opcion 3">Opcion 3</option>
+                <option value="Opcion 4">Opcion 4</option>
+            </select>
+            <select id="combo2" onchange="cambiar(this.value)"></select><br />
+            <p>Seleccionaste la opcion: &nbsp;<strong><span></span></strong>&nbsp;del combo 1</p>
+            <p>Seleccionaste la opcion: &nbsp;<strong><span></span></strong>&nbsp;del combo 2</p>
+        </div>
+    </div>
+
+     
+</body>
+</html>
